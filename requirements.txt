@@ -1,0 +1,5 @@
+networkx>=3.0        # For graph operations
+tqdm>=4.65           # Progress bars
+pytest>=7.4          # Testing
+pydot>=1.4.2         # Optional: visualization
+matplotlib>=3.7      # Optional: visualization
