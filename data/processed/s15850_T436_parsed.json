@@ -22720,288 +22720,288 @@
       }
     ],
     "wires": [
+      "trig122_0n5",
+      "trig122_0n2",
+      "troj36_0N1",
+      "troj36_0n7",
+      "troj36_0n1",
+      "trig122_0n6",
+      "troj36_0N6",
       "trig122_0n1",
-      "troj36_0counter_0_",
+      "troj36_0n6",
       "troj36_0N2",
+      "Trigger_en0_0",
+      "troj36_0n4",
+      "Trojan_out0",
+      "troj36_0counter_0_",
+      "troj36_0n10",
+      "troj36_0n9",
+      "troj36_0N3",
+      "trig122_0n3",
+      "troj36_0n3",
+      "tempn1417",
       "trig122_0n4",
       "troj36_0n8",
-      "troj36_0n6",
-      "Trojan_out0",
-      "troj36_0n1",
-      "troj36_0n10",
-      "trig122_0n6",
-      "trig122_0n5",
-      "troj36_0n7",
-      "Trigger_en0_0",
-      "tempn1417",
       "troj36_0n5",
-      "troj36_0n2",
-      "troj36_0n3",
-      "troj36_0N1",
-      "troj36_0n9",
-      "troj36_0N6",
-      "trig122_0n2",
-      "troj36_0N3",
-      "troj36_0n4",
-      "trig122_0n3"
+      "troj36_0n2"
     ],
     "cell_library": {
       "xor2s3": {
+        "DIN2": "input",
         "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
+        "Q": "output"
       },
       "or3s3": {
+        "DIN2": "input",
         "DIN1": "input",
         "Q": "output",
-        "DIN2": "input",
         "DIN3": "input"
       },
       "nor2s3": {
+        "DIN2": "input",
         "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
+        "Q": "output"
       },
       "nnd2s3": {
+        "DIN2": "input",
         "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
+        "Q": "output"
       },
       "and3s3": {
+        "DIN2": "input",
         "DIN1": "input",
         "Q": "output",
-        "DIN2": "input",
         "DIN3": "input"
       },
       "nnd3s3": {
+        "DIN2": "input",
         "DIN1": "input",
         "Q": "output",
-        "DIN2": "input",
         "DIN3": "input"
       },
       "or2s3": {
+        "DIN2": "input",
         "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
+        "Q": "output"
       },
       "nnd4s2": {
         "DIN1": "input",
-        "DIN3": "input",
-        "DIN4": "input",
         "Q": "output",
-        "DIN2": "input"
+        "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
       },
       "or5s3": {
-        "DIN1": "input",
-        "DIN3": "input",
         "DIN5": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "or4s3": {
-        "DIN1": "input",
-        "DIN3": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "and2s3": {
-        "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "xnr2s3": {
-        "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "nor6s3": {
-        "DIN1": "input",
-        "DIN3": "input",
-        "DIN5": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN6": "input",
-        "DIN2": "input"
-      },
-      "and4s2": {
-        "DIN1": "input",
-        "DIN3": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "nor3s3": {
         "DIN1": "input",
         "Q": "output",
         "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "or4s3": {
+        "DIN1": "input",
+        "Q": "output",
+        "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "and2s3": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output"
+      },
+      "xnr2s3": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output"
+      },
+      "nor6s3": {
+        "DIN5": "input",
+        "DIN1": "input",
+        "Q": "output",
+        "DIN2": "input",
+        "DIN6": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "and4s2": {
+        "DIN1": "input",
+        "Q": "output",
+        "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "nor3s3": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output",
         "DIN3": "input"
       },
       "nor4s3": {
         "DIN1": "input",
-        "DIN3": "input",
-        "DIN4": "input",
         "Q": "output",
-        "DIN2": "input"
+        "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
       },
       "nor5s3": {
-        "DIN1": "input",
-        "DIN3": "input",
         "DIN5": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "i1s3": {
-        "Q": "output",
-        "DIN": "input"
-      },
-      "nnd5s3": {
-        "DIN1": "input",
-        "DIN3": "input",
-        "DIN5": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "nnd2s1": {
-        "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "nnd2s2": {
-        "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "nor6s1": {
-        "DIN1": "input",
-        "DIN3": "input",
-        "DIN5": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN6": "input",
-        "DIN2": "input"
-      },
-      "nnd3s2": {
         "DIN1": "input",
         "Q": "output",
         "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "i1s3": {
+        "DIN": "input",
+        "Q": "output"
+      },
+      "nnd5s3": {
+        "DIN5": "input",
+        "DIN1": "input",
+        "Q": "output",
+        "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "nnd2s1": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output"
+      },
+      "nnd2s2": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output"
+      },
+      "nor6s1": {
+        "DIN5": "input",
+        "DIN1": "input",
+        "Q": "output",
+        "DIN2": "input",
+        "DIN6": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "nnd3s2": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output",
         "DIN3": "input"
       },
       "ib1s1": {
-        "Q": "output",
-        "DIN": "input"
+        "DIN": "input",
+        "Q": "output"
       },
       "ib1s9": {
-        "Q": "output",
-        "DIN": "input"
+        "DIN": "input",
+        "Q": "output"
       },
       "ib1s5": {
-        "Q": "output",
-        "DIN": "input"
+        "DIN": "input",
+        "Q": "output"
       },
       "nnd4s3": {
         "DIN1": "input",
-        "DIN3": "input",
-        "DIN4": "input",
         "Q": "output",
-        "DIN2": "input"
+        "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
       },
       "i1s12": {
-        "Q": "output",
-        "DIN": "input"
+        "DIN": "input",
+        "Q": "output"
       },
       "nor2s1": {
+        "DIN2": "input",
         "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
+        "Q": "output"
       },
       "nnd4s1": {
         "DIN1": "input",
-        "DIN3": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "nor3s1": {
-        "DIN1": "input",
         "Q": "output",
         "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "nor3s1": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output",
         "DIN3": "input"
       },
       "i1s1": {
-        "Q": "output",
-        "DIN": "input"
+        "DIN": "input",
+        "Q": "output"
       },
       "or5s1": {
-        "DIN1": "input",
-        "DIN3": "input",
         "DIN5": "input",
-        "DIN4": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "dffs2": {
-        "CLK": "input",
-        "Q": "output",
-        "DIN": "input"
-      },
-      "dffles2": {
-        "CLK": "input",
-        "QN": "output",
-        "EB": "input",
-        "DIN": "input"
-      },
-      "hi1s1": {
-        "Q": "output",
-        "DIN": "input"
-      },
-      "xnr2s1": {
-        "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
-      },
-      "and3s1": {
         "DIN1": "input",
         "Q": "output",
         "DIN2": "input",
+        "DIN4": "input",
+        "DIN3": "input"
+      },
+      "dffs2": {
+        "DIN": "input",
+        "Q": "output",
+        "CLK": "input"
+      },
+      "dffles2": {
+        "DIN": "input",
+        "EB": "input",
+        "QN": "output",
+        "CLK": "input"
+      },
+      "hi1s1": {
+        "DIN": "input",
+        "Q": "output"
+      },
+      "xnr2s1": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output"
+      },
+      "and3s1": {
+        "DIN2": "input",
+        "DIN1": "input",
+        "Q": "output",
         "DIN3": "input"
       },
       "xor2s1": {
+        "DIN2": "input",
         "DIN1": "input",
-        "Q": "output",
-        "DIN2": "input"
+        "Q": "output"
       }
     }
   },
   "labels": {
     "trojan_components": [
       "troj36_0U8",
-      "troj36_0U3",
-      "troj36_0U10",
-      "troj36_0U7",
-      "troj36_0counter_reg_0_",
-      "troj36_0U12",
-      "troj36_0U6",
-      "troj36_0counter_reg_3_",
       "trig122_0U5",
-      "trojan36_0",
-      "trig122_0U3",
-      "troj36_0Trojan_out0_reg",
-      "troj36_0U13",
-      "trig122_0U1",
-      "troj36_0counter_reg_2_",
-      "trig122_0U2",
-      "trig122_0U6",
-      "troj36_0U5",
-      "troj36_0U9",
-      "trig122_0U4",
       "trig122_0U7",
-      "troj36_0U4",
+      "troj36_0U3",
+      "troj36_0U13",
+      "troj36_0Trojan_out0_reg",
+      "trig122_0U4",
       "troj36_0U11",
-      "troj36_0counter_reg_1_"
+      "trojan36_0",
+      "troj36_0U5",
+      "troj36_0U6",
+      "troj36_0U12",
+      "troj36_0counter_reg_1_",
+      "troj36_0counter_reg_2_",
+      "troj36_0U9",
+      "troj36_0counter_reg_3_",
+      "trig122_0U6",
+      "trig122_0U2",
+      "troj36_0counter_reg_0_",
+      "troj36_0U10",
+      "trig122_0U3",
+      "troj36_0U7",
+      "troj36_0U4",
+      "trig122_0U1"
     ],
     "trojan_type": "counter with 9 states",
     "affected_signals": [

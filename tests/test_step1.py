@@ -10,9 +10,6 @@ import os
 import json
 from pathlib import Path
 
-# ==========================================
-# FIX: Add project root to Python path
-# ==========================================
 # Get the directory where this script is located
 current_dir = Path(__file__).resolve().parent
 # Get the parent directory (project root)
