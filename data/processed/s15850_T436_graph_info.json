@@ -1,0 +1,46 @@
+{
+  "module_name": "s15850",
+  "statistics": {
+    "num_vertices": 9944,
+    "num_cells": 2419,
+    "num_pins": 7294,
+    "num_ports": 231,
+    "num_edges": 18370,
+    "num_nets": 2929
+  },
+  "sample_cells": [
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "U10",
+    "U11"
+  ],
+  "sample_pins": [
+    "U2.DIN2",
+    "U2.Q",
+    "U2.DIN1",
+    "U3.DIN2",
+    "U3.DIN3",
+    "U3.Q",
+    "U3.DIN1",
+    "U4.DIN2",
+    "U4.Q",
+    "U4.DIN1",
+    "U5.DIN2",
+    "U5.Q",
+    "U5.DIN1",
+    "U6.DIN2",
+    "U6.Q",
+    "U6.DIN1",
+    "U7.DIN2",
+    "U7.Q",
+    "U7.DIN1",
+    "U8.DIN2"
+  ],
+  "num_components": 2419
+}

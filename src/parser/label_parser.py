@@ -1,8 +1,5 @@
 """
 Label Parser - Extracts Trojan component information from Trust-Hub log files
-
-This module parses the log.txt files that accompany Trojan-infected netlists
-to identify which components are part of the Trojan circuit.
 """
 
 import re
@@ -13,10 +10,17 @@ class LabelParser:
     """Parser for Trust-Hub Trojan log files"""
     
     def __init__(self):
+        # Per-file state (resets each parse)
         self.trojan_components = set()
         self.trojan_type = None
         self.affected_signals = []
         self.trigger_signals = []
+        
+        # Accumulative statistics (persists across files)
+        self.total_files_processed = 0
+        self.total_trojan_components = 0
+        self.total_affected_signals = 0
+        self.total_trigger_signals = 0
     
     def parse(self, log_path: str) -> Dict:
         """
@@ -26,26 +30,28 @@ class LabelParser:
             log_path: Path to the log.txt file
             
         Returns:
-            Dictionary containing:
-                - trojan_components: Set of component instance names
-                - trojan_type: Type of Trojan (e.g., "counter with 9 states")
-                - affected_signals: List of signals modified by Trojan
-                - trigger_signals: List of signals used in trigger condition
+            Dictionary containing Trojan information for THIS file only
         """
+        # Reset per-file state
+        self.trojan_components = set()
+        self.trojan_type = None
+        self.affected_signals = []
+        self.trigger_signals = []
+        
         with open(log_path, 'r') as f:
             content = f.read()
         
-        # Extract Trojan type
+        # Extract Trojan information
         self._extract_trojan_type(content)
-        
-        # Extract affected signals
         self._extract_affected_signals(content)
-        
-        # Extract trigger signals
         self._extract_trigger_signals(content)
-        
-        # Extract Trojan components from TROJAN BODY section
         self._extract_trojan_components(content)
+        
+        # Update accumulative statistics
+        self.total_files_processed += 1
+        self.total_trojan_components += len(self.trojan_components)
+        self.total_affected_signals += len(self.affected_signals)
+        self.total_trigger_signals += len(self.trigger_signals)
         
         return {
             'trojan_components': list(self.trojan_components),
@@ -67,7 +73,6 @@ class LabelParser:
                                 content, re.DOTALL)
         if effect_match:
             signals_text = effect_match.group(1).strip()
-            # Split by whitespace to get individual signal names
             self.affected_signals = [s.strip() for s in signals_text.split() if s.strip()]
     
     def _extract_trigger_signals(self, content: str):
@@ -76,65 +81,46 @@ class LabelParser:
                                  content, re.DOTALL)
         if trigger_match:
             signals_text = trigger_match.group(1).strip()
-            # Split by whitespace to get individual signal names
             self.trigger_signals = [s.strip() for s in signals_text.split() if s.strip()]
     
     def _extract_trojan_components(self, content: str):
-        """
-        Extract Trojan component instance names from TROJAN BODY section
-        
-        Parses gate instantiations like:
-            nor2s1 trig122_0U1 ( .DIN1(trig122_0n1), ... );
-            dffs2 troj36_0counter_reg_0_ ( .DIN(troj36_0n10), ... );
-        """
-        # Find the TROJAN BODY section - capture everything until the end or next major section
-        # The TROJAN BODY section ends with a line of dashes followed by empty line or EOF
+        """Extract Trojan component instance names from TROJAN BODY section"""
         trojan_body_match = re.search(r'TROJAN BODY:\s*\n(.+?)(?:\n-{30,}\s*$|\Z)', 
                                      content, re.DOTALL)
         
         if not trojan_body_match:
-            print("Warning: Could not find TROJAN BODY section in log file")
             return
         
         trojan_body = trojan_body_match.group(1)
-        
-        # Parse gate instantiations
-        # Pattern matches: <cell_type> <instance_name> ( ... );
-        # Examples:
-        #   nor2s1 trig122_0U1 ( .DIN1(n1), .Q(out) );
-        #   dffs2 troj36_0counter_reg_0_ ( .DIN(n2), .CLK(CK), .Q(q) );
-        
         gate_pattern = r'(\w+)\s+(\w+)\s*\('
         
         for match in re.finditer(gate_pattern, trojan_body):
-            cell_type = match.group(1)
             instance_name = match.group(2)
             
-            # Filter out common keywords that might be captured
             if instance_name.lower() not in ['input', 'output', 'wire', 'module', 'endmodule']:
                 self.trojan_components.add(instance_name)
-        
-        print(f"Extracted {len(self.trojan_components)} Trojan components from log file")
     
     def is_trojan_component(self, component_name: str) -> bool:
-        """
-        Check if a component is part of the Trojan circuit
-        
-        Args:
-            component_name: Instance name of the component
-            
-        Returns:
-            True if component is a Trojan component, False otherwise
-        """
+        """Check if a component is part of the Trojan circuit"""
         return component_name in self.trojan_components
     
     def get_statistics(self) -> Dict:
-        """Get statistics about the parsed Trojan information"""
+        """Get statistics about the current file"""
         return {
             'num_trojan_components': len(self.trojan_components),
             'num_affected_signals': len(self.affected_signals),
             'num_trigger_signals': len(self.trigger_signals),
             'trojan_type': self.trojan_type
+        }
+    
+    def get_accumulative_statistics(self) -> Dict:
+        """Get accumulative statistics across all processed files"""
+        return {
+            'total_files_processed': self.total_files_processed,
+            'total_trojan_components': self.total_trojan_components,
+            'total_affected_signals': self.total_affected_signals,
+            'total_trigger_signals': self.total_trigger_signals,
+            'avg_trojans_per_file': self.total_trojan_components / max(1, self.total_files_processed)
         }
 
 

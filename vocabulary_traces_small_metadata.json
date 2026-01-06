@@ -1,0 +1,23 @@
+{
+  "extraction_stats": {
+    "files_processed": 71,
+    "files_failed": 0,
+    "total_components": 1771876,
+    "total_traces": 1342144,
+    "failed_files": [],
+    "start_time": 1767714258.4326441,
+    "checkpoints": [
+      "checkpoints\\checkpoint_0050.json",
+      "checkpoints\\checkpoint_0071.json"
+    ],
+    "elapsed_time": 517.9184303283691
+  },
+  "label_stats": {
+    "total_files_processed": 71,
+    "total_trojan_components": 502,
+    "total_affected_signals": 71,
+    "total_trigger_signals": 856,
+    "avg_trojans_per_file": 7.070422535211268
+  },
+  "logic_level": 4
+}

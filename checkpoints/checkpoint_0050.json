@@ -1,0 +1,22 @@
+{
+  "file_index": 50,
+  "total_files": 71,
+  "progress_percent": 70.4225352112676,
+  "timestamp": "2026-01-06T19:17:49.331661",
+  "stats": {
+    "files_processed": 50,
+    "files_failed": 0,
+    "total_components": 883983,
+    "total_traces": 698124,
+    "failed_files": [],
+    "start_time": 1767714258.4326441,
+    "checkpoints": []
+  },
+  "accumulative_label_stats": {
+    "total_files_processed": 50,
+    "total_trojan_components": 359,
+    "total_affected_signals": 50,
+    "total_trigger_signals": 619,
+    "avg_trojans_per_file": 7.18
+  }
+}

@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+
+# Project Corpus
+./vocabulary_traces.txt
+./vocabulary_traces_small.txt
+vocabulary_traces_small.txt
+vocabulary_traces.txt
+data/processed/pcp_traces/s15850_traces_paper.txt
+notebooks/e_pcp_dataset_T100.npz
+notebooks/e_pcp_dataset.npz
+notebooks/test_models/embedding_matrix.npy

@@ -1,0 +1,77 @@
+{
+  "dataset_shape": {
+    "X": [
+      722531,
+      9,
+      100
+    ],
+    "y": [
+      722531
+    ]
+  },
+  "statistics": {
+    "total_files": 51,
+    "total_traces": 722531,
+    "ht_traces": 5902,
+    "normal_traces": 716629,
+    "oov_words": 10115,
+    "files_processed": [
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T000\\c2670_T000.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T001\\c2670_T001.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T002\\c2670_T002.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T003\\c2670_T003.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T004\\c2670_T004.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T005\\c2670_T005.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T006\\c2670_T006.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T007\\c2670_T007.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T008\\c2670_T008.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T009\\c2670_T009.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T010\\c2670_T010.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T011\\c2670_T011.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T012\\c2670_T012.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T013\\c2670_T013.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T014\\c2670_T014.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T015\\c2670_T015.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T016\\c2670_T016.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T017\\c2670_T017.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T018\\c2670_T018.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T019\\c2670_T019.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T020\\c2670_T020.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T021\\c2670_T021.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T022\\c2670_T022.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T023\\c2670_T023.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T024\\c2670_T024.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T025\\c2670_T025.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T026\\c2670_T026.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T027\\c2670_T027.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T028\\c2670_T028.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T029\\c2670_T029.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T030\\c2670_T030.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T031\\c2670_T031.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T032\\c2670_T032.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T033\\c2670_T033.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T034\\c2670_T034.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T035\\c2670_T035.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T036\\c2670_T036.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T037\\c2670_T037.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T038\\c2670_T038.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T039\\c2670_T039.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T040\\c2670_T040.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T041\\c2670_T041.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T042\\c2670_T042.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T043\\c2670_T043.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T044\\c2670_T044.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T045\\c2670_T045.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T046\\c2670_T046.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T047\\c2670_T047.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T048\\c2670_T048.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T049\\c2670_T049.v",
+      "E:\\University of Kerman\\Term 9\\VHDL\\Datasets\\TRIT-TC\\TRIT-TC\\c2670_T050\\c2670_T050.v"
+    ]
+  },
+  "class_distribution": {
+    "HT": 5902,
+    "Normal": 716629,
+    "HT_percentage": 0.8168507648806764
+  }
+}

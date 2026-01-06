@@ -1,0 +1,278 @@
+{
+  "module_name": "s15850",
+  "statistics": {
+    "num_blocks": 2419,
+    "logic_level": 4,
+    "total_nets_in_blocks": 7276,
+    "avg_nets_per_block": 3.0078544853245144,
+    "total_input_paths": 4875,
+    "total_output_paths": 2419,
+    "avg_input_paths": 2.0152955766845806,
+    "avg_output_paths": 1.0
+  },
+  "classification": {
+    "num_trojan_blocks": 24,
+    "num_normal_blocks": 2395,
+    "trojan_block_names": [
+      "trig122_0U1",
+      "trig122_0U2",
+      "trig122_0U3",
+      "trig122_0U4",
+      "trig122_0U5",
+      "trig122_0U6",
+      "trig122_0U7",
+      "troj36_0counter_reg_0_",
+      "troj36_0counter_reg_1_",
+      "troj36_0counter_reg_2_"
+    ]
+  },
+  "sample_blocks": {
+    "U2": {
+      "center_cell": "U2",
+      "center_cell_type": "xor2s3",
+      "logic_level": 4,
+      "input_side": [
+        [
+          [
+            "n2575"
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [
+            "n907"
+          ],
+          [
+            "n907"
+          ],
+          [],
+          [],
+          []
+        ]
+      ],
+      "output_side": [
+        [
+          [
+            "n2826"
+          ],
+          [],
+          [],
+          [],
+          []
+        ]
+      ],
+      "statistics": {
+        "center_cell": "U2",
+        "center_cell_type": "xor2s3",
+        "logic_level": 4,
+        "num_input_pins": 2,
+        "num_output_pins": 1,
+        "total_nets": 3
+      }
+    },
+    "U3": {
+      "center_cell": "U3",
+      "center_cell_type": "or3s3",
+      "logic_level": 4,
+      "input_side": [
+        [
+          [
+            "g6255"
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [
+            "g6254"
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [
+            "n908"
+          ],
+          [
+            "n908"
+          ],
+          [],
+          [],
+          []
+        ]
+      ],
+      "output_side": [
+        [
+          [
+            "g9961"
+          ],
+          [],
+          [],
+          [],
+          []
+        ]
+      ],
+      "statistics": {
+        "center_cell": "U3",
+        "center_cell_type": "or3s3",
+        "logic_level": 4,
+        "num_input_pins": 3,
+        "num_output_pins": 1,
+        "total_nets": 4
+      }
+    },
+    "U4": {
+      "center_cell": "U4",
+      "center_cell_type": "nor2s3",
+      "logic_level": 4,
+      "input_side": [
+        [
+          [
+            "n2861"
+          ],
+          [
+            "n2861"
+          ],
+          [],
+          [],
+          []
+        ],
+        [
+          [
+            "n909"
+          ],
+          [
+            "n909"
+          ],
+          [],
+          [],
+          []
+        ]
+      ],
+      "output_side": [
+        [
+          [
+            "g9930"
+          ],
+          [],
+          [],
+          [],
+          []
+        ]
+      ],
+      "statistics": {
+        "center_cell": "U4",
+        "center_cell_type": "nor2s3",
+        "logic_level": 4,
+        "num_input_pins": 2,
+        "num_output_pins": 1,
+        "total_nets": 3
+      }
+    },
+    "U5": {
+      "center_cell": "U5",
+      "center_cell_type": "xor2s3",
+      "logic_level": 4,
+      "input_side": [
+        [
+          [
+            "n1975"
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [
+            "n910"
+          ],
+          [
+            "n910"
+          ],
+          [],
+          [],
+          []
+        ]
+      ],
+      "output_side": [
+        [
+          [
+            "n909"
+          ],
+          [
+            "n909"
+          ],
+          [],
+          [],
+          []
+        ]
+      ],
+      "statistics": {
+        "center_cell": "U5",
+        "center_cell_type": "xor2s3",
+        "logic_level": 4,
+        "num_input_pins": 2,
+        "num_output_pins": 1,
+        "total_nets": 3
+      }
+    },
+    "U6": {
+      "center_cell": "U6",
+      "center_cell_type": "nnd2s3",
+      "logic_level": 4,
+      "input_side": [
+        [
+          [
+            "n911"
+          ],
+          [
+            "n911"
+          ],
+          [],
+          [],
+          []
+        ],
+        [
+          [
+            "n912"
+          ],
+          [
+            "n912"
+          ],
+          [],
+          [],
+          []
+        ]
+      ],
+      "output_side": [
+        [
+          [
+            "n910"
+          ],
+          [
+            "n910"
+          ],
+          [],
+          [],
+          []
+        ]
+      ],
+      "statistics": {
+        "center_cell": "U6",
+        "center_cell_type": "nnd2s3",
+        "logic_level": 4,
+        "num_input_pins": 2,
+        "num_output_pins": 1,
+        "total_nets": 3
+      }
+    }
+  }
+}

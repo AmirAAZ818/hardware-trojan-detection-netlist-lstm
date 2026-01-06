@@ -1,7 +1,6 @@
 """
 PCP Trace Generator - Algorithm 2 from Paper
 
-This module implements Algorithm 2 exactly as shown in the paper:
 "PCP feature trace extraction from netlist block"
 
 Key features:

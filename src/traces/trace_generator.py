@@ -11,11 +11,6 @@ from src.graph.netlist_graph import PinLevelGraph
 from src.extraction.netlist_block import NetlistBlock
 from src.traces.pcp_trace import PCPTrace, PCPVocabulary
 
-# Alternatively, you could use relative imports:
-# from ..graph.netlist_graph import PinLevelGraph
-# from ..extraction.netlist_block import NetlistBlock
-# from .pcp_trace import PCPTrace, PCPVocabulary
-
 
 class TraceGenerator:
     """

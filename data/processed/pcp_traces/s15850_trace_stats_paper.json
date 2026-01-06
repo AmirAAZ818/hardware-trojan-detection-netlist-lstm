@@ -2,23 +2,17 @@
   "module_name": "s15850",
   "trace_statistics": {
     "num_components": 2419,
-    "num_traces": 20151,
-    "avg_traces_per_component": 8.330301777594046,
-    "avg_trace_length": 4.545779365788299,
-    "expected_trace_length": 9,
+    "num_traces": 20179,
+    "avg_traces_per_component": 8.341876808598595,
+    "avg_trace_length": 4.626046880420239,
     "min_trace_length": 1,
     "max_trace_length": 7,
     "traces_with_correct_length": 0,
     "percentage_correct_length": 0.0
   },
-  "implementation": "paper_algorithms",
-  "algorithms_used": [
-    "Algorithm 1",
-    "Algorithm 2"
-  ],
   "classification": {
     "num_trojan_components": 24,
     "num_trojan_traces": 444,
-    "num_normal_traces": 19707
+    "num_normal_traces": 19735
   }
 }

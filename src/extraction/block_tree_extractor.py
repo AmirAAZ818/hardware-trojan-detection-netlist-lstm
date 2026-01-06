@@ -1,13 +1,7 @@
 """
 Netlist Block Tree Extractor - Algorithm 1 from Paper
 
-This module implements Algorithm 1 exactly as shown in the paper:
 "Netlist block extraction for components in netlist"
-
-Key features:
-- Recursive BFS with depth limit (logic_level)
-- Creates tree structure of paths
-- Stores pin-to-pin connections
 """
 
 from typing import Dict, List, Set, Optional

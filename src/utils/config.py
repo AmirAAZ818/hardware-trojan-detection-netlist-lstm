@@ -156,8 +156,8 @@ ensure_directories()
 # Check configuration (warnings only, doesn't stop execution)
 config_issues = validate_config()
 if config_issues:
-    print("\n⚠️  Configuration Warnings:")
+    print("Configuration Warnings:")
     for issue in config_issues:
         print(f"  - {issue}")
-    print("\nℹ️  You can still run the tests by providing file paths as arguments.")
+    print("You can still run the tests by providing file paths as arguments.")
     print("   Or update DEFAULT_NETLIST and DEFAULT_LABEL in src/utils/config.py\n")

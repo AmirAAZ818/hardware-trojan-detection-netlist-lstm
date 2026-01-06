@@ -1,0 +1,20 @@
+{
+  "vocab_size": 383,
+  "total_traces": 1342144,
+  "vector_size": 100,
+  "vocab_build_time": 3.313591241836548,
+  "training_time": 22.81346035003662,
+  "total_time": 26.637059688568115,
+  "traces_per_second": 235324.93175641293,
+  "hyperparameters": {
+    "vector_size": 100,
+    "window": 5,
+    "min_count": 1,
+    "workers": 4,
+    "epochs": 4,
+    "sg": 1,
+    "negative": 5,
+    "max_traces": null
+  },
+  "timestamp": "2026-01-06T19:56:32.736294"
+}
