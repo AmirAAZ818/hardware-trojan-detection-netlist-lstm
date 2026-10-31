@@ -195,6 +195,6 @@ The paper's headline numbers (Tables 8 and 10) come from a test set of 80 netlis
 
 ## Author
 
-Amirhossein Abolhassani Zeraatkar, Shahid Bahonar University of Kerman
+Amirhossein Abolhassani Zeraatkar
 
-Benchmark netlists come from [Trust-Hub](https://trust-hub.org/) and remain under their own terms. The paper's figures are not reproduced here, please refer to the original publication.
+Benchmark netlists come from [Trust-Hub](https://trust-hub.org/) and remain under their own terms.Furthermore, the paper's figures are not reproduced here, please refer to the original publication.
