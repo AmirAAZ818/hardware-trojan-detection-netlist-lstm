@@ -214,7 +214,13 @@ __marimo__/
 ./vocabulary_traces_small.txt
 vocabulary_traces_small.txt
 vocabulary_traces.txt
-data/processed/pcp_traces/s15850_traces_paper.txt
 notebooks/e_pcp_dataset_T100.npz
 notebooks/e_pcp_dataset.npz
 notebooks/test_models/embedding_matrix.npy
+
+# Large generated artifacts (regenerate with the scripts and notebooks)
+*.npz
+*.npy
+notebooks/model_checkpoints/
+checkpoints/
+extraction_log_*.txt

@@ -314,7 +314,7 @@ def main():
     # ========================================================================
     
     # Dataset root directory
-    DATASET_ROOT = r"E:\University of Kerman\Term 9\VHDL\Datasets"
+    DATASET_ROOT = os.environ.get("TROJAN_DATASET_ROOT", "Datasets")  # folder that contains TRIT-TC / TRIT-TS
     
     # Output configuration
     OUTPUT_FILE = "vocabulary_traces_small.txt"

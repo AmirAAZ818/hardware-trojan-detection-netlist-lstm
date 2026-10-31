@@ -1,0 +1,18 @@
+{
+  "final_metrics": {
+    "TNR": 0.8371948761533378,
+    "TPR": 0.4889328556149217,
+    "NPV": 0.9949967335463316,
+    "PPV": 0.02413473644021845,
+    "F2": 0.10076198155775118
+  },
+  "config": {
+    "k_folds": 3,
+    "epochs": 5,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "balance_method": "weighted"
+  },
+  "training_time": 1225.2572560310364,
+  "timestamp": "2026-01-06T22:19:28.760617"
+}
