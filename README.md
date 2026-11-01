@@ -182,7 +182,7 @@ A few differences from the paper could explain part of the gap. None of them has
 - Class balancing here uses a weighted sampler and not a weighted loss.
 - The final paper numbers include voting over each netlist block, which is not implemented here.
 
-### What cannot be compared yet
+### What cannot be compared
 
 The paper's headline numbers (Tables 8 and 10) come from a test set of 80 netlists with voting, and cover sequential Trojans and the CNN as well. This repository has only run combinational Trojans with the LSTM and without voting, so those numbers are listed above for reference and not reproduced.
 
@@ -191,7 +191,6 @@ The paper's headline numbers (Tables 8 and 10) come from a test set of 80 netlis
 - Step 12 (voting inside each netlist block) and the CNN detector are missing.
 - Only the weighted-sampler run is saved under `results/`. Runs with upsampling, downsampling and no balancing, plus the sequential Trojan set (TRIT-TS), are still to do.
 - Folds should be split by netlist, as in the paper, to avoid traces from the same circuit appearing on both sides.
-- The notebooks need their absolute paths and Colab cells cleaned up.
 
 ## Author
 
